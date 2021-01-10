@@ -1,12 +1,12 @@
 import React from 'react'
-import img from '../../images/svg-1.svg'
+//import img from '../../images/svg-1.svg'
 
 import {InfoContianer,InfoWrapper,InfoRow,Colum1,TextWrapper,TopLine,
     Heading,Subtitle,BtnWrap,Colum2,ImgWrap,Img} from './InfoElement';
     import {Button} from '../ButtonElement'
 
 export const InfoSection = ({lightText,lightBg,id,imgStart,topLine,
-    darkText,headline,description,buttonLabel,alt,primary,dark,dark2}) => {
+    darkText,headline,description,buttonLabel,alt,primary,dark,dark2,img}) => {
 return (
 <>
     <InfoContianer lightBg={lightBg} id={id}>
