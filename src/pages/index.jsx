@@ -5,6 +5,7 @@ import { HeroSection } from '../HeroSection';
 import { InfoSection } from '../component/InfoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../component/InfoSection/Data';
 import { Service } from '../component/Service/Index';
+import { Footer } from '../component/Footer/Index';
 
 export const Home = () => {
   const [isOpen, setIsOpen] =useState(false)
@@ -19,9 +20,10 @@ export const Home = () => {
             <NavBar toggle={toggle}/>
             <HeroSection/>
              <InfoSection {...homeObjOne}/>
-             <InfoSection {...homeObjTwo}/>
-             <InfoSection {...homeObjThree}/>
+             <InfoSection {...homeObjTwo}/> 
              <Service/>
+             <InfoSection {...homeObjThree}/>
+             <Footer/>
         </>
     )
 }
